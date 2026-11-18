@@ -1,0 +1,46 @@
+{
+  "_resourceType": "script",
+  "id": "982b70b2-8fd8-43eb-96e7-68355fcd9e9f",
+  "name": "ReplaceAlphaAt",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "X",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Y",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "Letter",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "variable",
+          "value": "V0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V1"
+        },
+        "tilesetId": "d51120df-8322-4fee-9b1a-abf4dde0d8ae",
+        "tileIndex": {
+          "type": "variable",
+          "value": "V2"
+        }
+      },
+      "id": "b67b4fc4-18a8-4d76-9b6c-e4717b2c17df"
+    }
+  ]
+}

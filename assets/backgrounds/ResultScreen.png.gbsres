@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "26f3a95f-88ba-4b23-aae2-0b020055a3ac",
+  "name": "ResultScreen",
+  "symbol": "bg_resultscreen",
+  "tileColors": "",
+  "filename": "ResultScreen.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

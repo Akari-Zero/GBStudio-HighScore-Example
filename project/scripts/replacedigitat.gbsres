@@ -1,0 +1,46 @@
+{
+  "_resourceType": "script",
+  "id": "d6652957-d227-4bdd-b5a6-97d99b90e912",
+  "name": "ReplaceDigitAt",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "X",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Y",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "Num",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "variable",
+          "value": "V0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V1"
+        },
+        "tilesetId": "e64fc11f-01f1-4df8-8bed-48c3e210f254",
+        "tileIndex": {
+          "type": "variable",
+          "value": "V2"
+        }
+      },
+      "id": "9d459ce4-8108-4435-88c9-d7e372fb6948"
+    }
+  ]
+}

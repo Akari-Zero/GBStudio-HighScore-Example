@@ -1,0 +1,151 @@
+{
+  "_resourceType": "script",
+  "id": "cecd5a18-be9e-47ed-bec3-7960677800b2",
+  "name": "ReplaceScoreSlotAt",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Score",
+      "passByReference": false
+    },
+    "V1": {
+      "id": "V1",
+      "name": "X",
+      "passByReference": false
+    },
+    "V2": {
+      "id": "V2",
+      "name": "Y",
+      "passByReference": false
+    }
+  },
+  "actors": {},
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "variable",
+          "value": "V1"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V2"
+        },
+        "tilesetId": "e64fc11f-01f1-4df8-8bed-48c3e210f254",
+        "tileIndex": {
+          "type": "expression",
+          "value": "($V0$ / 1000)"
+        }
+      },
+      "id": "a2bd4b90-c06a-4d10-83d3-e80e87887fab"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__comment": true
+      },
+      "id": "ebdadd12-c753-4cb1-94a1-e5258c4d74bb"
+    },
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "expression",
+          "value": "$V1$ + 1"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V2"
+        },
+        "tilesetId": "e64fc11f-01f1-4df8-8bed-48c3e210f254",
+        "tileIndex": {
+          "type": "expression",
+          "value": "(($V0$ / 100) % 10)"
+        },
+        "__comment": false
+      },
+      "id": "05e0270b-3981-404a-b850-ff335ff35534"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__comment": true
+      },
+      "id": "f794481f-f4c5-4c68-8350-5c91353f1f70"
+    },
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "expression",
+          "value": "$V1$ + 2"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V2"
+        },
+        "tilesetId": "e64fc11f-01f1-4df8-8bed-48c3e210f254",
+        "tileIndex": {
+          "type": "expression",
+          "value": "(($V0$ / 10) % 10)"
+        },
+        "__comment": false
+      },
+      "id": "66dfe498-9f03-4e95-935f-307ec5c44ce4"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__comment": true
+      },
+      "id": "e480cbe7-667a-41c0-a9e6-b50201357404"
+    },
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "expression",
+          "value": "$V1$ + 3"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V2"
+        },
+        "tilesetId": "e64fc11f-01f1-4df8-8bed-48c3e210f254",
+        "tileIndex": {
+          "type": "expression",
+          "value": "$V0$ % 10"
+        },
+        "__comment": false
+      },
+      "id": "7d65e495-3517-4bf5-a31d-3e32cf32c273"
+    }
+  ]
+}

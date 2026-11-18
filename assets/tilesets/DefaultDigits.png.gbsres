@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "e64fc11f-01f1-4df8-8bed-48c3e210f254",
+  "name": "DefaultDigits",
+  "symbol": "tileset_defaultdigits",
+  "width": 5,
+  "height": 2,
+  "imageWidth": 40,
+  "imageHeight": 16,
+  "filename": "DefaultDigits.png"
+}

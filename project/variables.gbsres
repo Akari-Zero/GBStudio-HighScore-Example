@@ -1,0 +1,176 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Score1",
+      "symbol": "var_score1"
+    },
+    {
+      "id": "1",
+      "name": "Score1_Char1",
+      "symbol": "var_score1_char1"
+    },
+    {
+      "id": "2",
+      "name": "Score1_Char2",
+      "symbol": "var_score1_char2"
+    },
+    {
+      "id": "3",
+      "name": "Score1_Char3",
+      "symbol": "var_score1_char3"
+    },
+    {
+      "id": "4",
+      "name": "Score2",
+      "symbol": "var_score2"
+    },
+    {
+      "id": "5",
+      "name": "Score2_Char1",
+      "symbol": "var_score2_char1"
+    },
+    {
+      "id": "6",
+      "name": "Score2_Char2",
+      "symbol": "var_score2_char2"
+    },
+    {
+      "id": "7",
+      "name": "Score2_Char3",
+      "symbol": "var_score2_char3"
+    },
+    {
+      "id": "8",
+      "name": "Score3",
+      "symbol": "var_score3"
+    },
+    {
+      "id": "9",
+      "name": "Score3_Char1",
+      "symbol": "var_score3_char1"
+    },
+    {
+      "id": "10",
+      "name": "Score3_Char2",
+      "symbol": "var_score3_char2"
+    },
+    {
+      "id": "11",
+      "name": "Score3_Char3",
+      "symbol": "var_score3_char3"
+    },
+    {
+      "id": "12",
+      "name": "Score4",
+      "symbol": "var_score4"
+    },
+    {
+      "id": "13",
+      "name": "Score4_Char1",
+      "symbol": "var_score4_char1"
+    },
+    {
+      "id": "14",
+      "name": "Score4_Char2",
+      "symbol": "var_score4_char2"
+    },
+    {
+      "id": "15",
+      "name": "Score4_Char3",
+      "symbol": "var_score4_char3"
+    },
+    {
+      "id": "16",
+      "name": "Score5",
+      "symbol": "var_score5"
+    },
+    {
+      "id": "17",
+      "name": "Score5_Char1",
+      "symbol": "var_score5_char1"
+    },
+    {
+      "id": "18",
+      "name": "Score5_Char2",
+      "symbol": "var_score5_char2"
+    },
+    {
+      "id": "19",
+      "name": "Score5_Char3",
+      "symbol": "var_score5_char3"
+    },
+    {
+      "id": "20",
+      "name": "Score6",
+      "symbol": "var_score6"
+    },
+    {
+      "id": "21",
+      "name": "Score6_Char1",
+      "symbol": "var_score6_char1"
+    },
+    {
+      "id": "22",
+      "name": "Score6_Char2",
+      "symbol": "var_score6_char2"
+    },
+    {
+      "id": "23",
+      "name": "Score6_Char3",
+      "symbol": "var_score6_char3"
+    },
+    {
+      "id": "24",
+      "name": "Score7",
+      "symbol": "var_score7"
+    },
+    {
+      "id": "25",
+      "name": "Score7_Char1",
+      "symbol": "var_score7_char1"
+    },
+    {
+      "id": "26",
+      "name": "Score7_Char2",
+      "symbol": "var_score7_char2"
+    },
+    {
+      "id": "27",
+      "name": "Score7_Char3",
+      "symbol": "var_score7_char3"
+    },
+    {
+      "id": "28",
+      "name": "InputScore",
+      "symbol": "var_inputscore"
+    },
+    {
+      "id": "29",
+      "name": "Input_Char1",
+      "symbol": "var_input_char1"
+    },
+    {
+      "id": "30",
+      "name": "Input_Char2",
+      "symbol": "var_input_char2"
+    },
+    {
+      "id": "31",
+      "name": "Input_Char3",
+      "symbol": "var_input_char3"
+    },
+    {
+      "id": "32",
+      "name": "InputRow",
+      "symbol": "var_inputrow"
+    },
+    {
+      "id": "33",
+      "name": "InputColumn",
+      "symbol": "var_inputcolumn"
+    }
+  ],
+  "constants": []
+}

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "d51120df-8322-4fee-9b1a-abf4dde0d8ae",
+  "name": "DefaultAlpha",
+  "symbol": "tileset_defaultalpha",
+  "width": 9,
+  "height": 3,
+  "imageWidth": 72,
+  "imageHeight": 24,
+  "filename": "DefaultAlpha.png"
+}
